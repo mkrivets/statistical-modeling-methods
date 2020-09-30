@@ -1,8 +1,8 @@
 from scipy import stats
 
 alpha = 0.05
-M = 15
-m = 27
+M = 0.5
+m = 2
 
 
 def pseudorandom(x0, N):
@@ -23,10 +23,11 @@ def pseudorandom(x0, N):
 
 print(pseudorandom(1, 100))
 
-stat, p = stats.normaltest(pseudorandom(1, 100))
-print("p = {:g}".format(p))
+stat, p = stats.kstest(pseudorandom(1, 100), "uniform")
+
+print("p-value = {:g}".format(p))
 
 if p < alpha:
-    print("The null hypothesis (our pseudorandom numbers come from a normal distribution) can be rejected")
+    print("The null hypothesis (our pseudorandom numbers come from a uniform distribution) can be rejected")
 else:
-    print("The null hypothesis (our pseudorandom numbers come from a normal distribution) cannot be rejected")
+    print("The null hypothesis (our pseudorandom numbers come from a uniform distribution) cannot be rejected")
