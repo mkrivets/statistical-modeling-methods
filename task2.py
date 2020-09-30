@@ -3,7 +3,8 @@ import numpy as np
 
 def pseudorandomBinarySeq(N):
     '''
-    Generates list of N pseudorandom binary numbers
+    Generates list of N pseudorandom binary numbers using variables from the
+    standard uniform distribution
     :param N: length of the list
     :return: list
     '''
