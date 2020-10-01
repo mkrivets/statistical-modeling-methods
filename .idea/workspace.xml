@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e4116825-f50c-49cd-adb7-6a80d18363ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task5.py" beforeDir="false" afterPath="$PROJECT_DIR$/task5-6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task5-6.py" beforeDir="false" afterPath="$PROJECT_DIR$/task5-6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="task5-6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="statistical-modeling-methods" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,7 +102,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task5-6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,10 +171,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.task10" />
-        <item itemvalue="Python.task8" />
-        <item itemvalue="Python.task3" />
         <item itemvalue="Python.task9" />
+        <item itemvalue="Python.task8" />
         <item itemvalue="Python.task7" />
+        <item itemvalue="Python.task5-6" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +189,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601386958420</updated>
       <workItem from="1601386960088" duration="87000" />
-      <workItem from="1601467709016" duration="21618000" />
+      <workItem from="1601467709016" duration="25315000" />
     </task>
     <servers />
   </component>
@@ -209,22 +208,22 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="101" key="GridCell.Tab.0.bottom" timestamp="1601499440249">
+    <state width="1237" height="101" key="GridCell.Tab.0.bottom" timestamp="1601524444288">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="101" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1601499440249" />
-    <state width="1237" height="101" key="GridCell.Tab.0.center" timestamp="1601499440249">
+    <state width="1237" height="101" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1601524444288" />
+    <state width="1237" height="101" key="GridCell.Tab.0.center" timestamp="1601524444287">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="101" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1601499440249" />
-    <state width="1237" height="101" key="GridCell.Tab.0.left" timestamp="1601499440249">
+    <state width="1237" height="101" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1601524444287" />
+    <state width="1237" height="101" key="GridCell.Tab.0.left" timestamp="1601524444284">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="101" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1601499440249" />
-    <state width="1237" height="101" key="GridCell.Tab.0.right" timestamp="1601499440249">
+    <state width="1237" height="101" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1601524444284" />
+    <state width="1237" height="101" key="GridCell.Tab.0.right" timestamp="1601524444287">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="101" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1601499440249" />
+    <state width="1237" height="101" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1601524444287" />
     <state x="160" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601503853565">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
