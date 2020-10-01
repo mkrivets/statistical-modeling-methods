@@ -1,7 +1,7 @@
 from scipy import stats
 
 alpha = 0.05
-M = 0.5
+M = 15
 m = 2
 
 
@@ -16,7 +16,7 @@ def pseudorandom(x0, N):
     result = []
     result.append(x0)
     for i in range(1, N):
-        x = (result[i - 1] * (M % pow(2, m))) / (pow(2, m))
+        x = result[i - 1] * ((M % pow(2, m)) / (pow(2, m)))
         result.append(x)
     return result
 

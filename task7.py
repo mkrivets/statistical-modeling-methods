@@ -3,15 +3,15 @@ import numpy as np
 
 def randomBinarySeq(N):
     '''
-    Generates list of N random binary numbers based on the difference of 2 random variables.
-    For example, uniformly distributed on the (0,1)
+    Generates list of N random binary numbers based on the difference of 2 random variables,
+    for example, normally distributed
     :param N: length of the list
     :return: list
     '''
-    uniList = np.random.uniform(0, 1, N + 1)
+    normList = np.random.normal(0, 1, N + 1)
     result = []
     for i in range(0, N):
-        if (uniList[i + 1] - uniList[i] > 0):
+        if (normList[i + 1] - normList[i] > 0):
             result.append(1)
         else:
             result.append(0)
